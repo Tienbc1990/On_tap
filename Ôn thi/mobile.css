@@ -1,0 +1,22 @@
+@media only screen and (max-width: 600px) {
+  .khoi-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .div-anh {
+    display: none;
+  }
+  .khoi3 {
+    grid-column: 1/2;
+  }
+  .khoi5 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .khoi6 {
+    grid-row: 4/5;
+  }
+  .khoi3bt {
+    display: none;
+  }
+}
